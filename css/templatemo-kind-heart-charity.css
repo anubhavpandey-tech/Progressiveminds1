@@ -56,6 +56,10 @@ https://templatemo.com/tm-581-kind-heart-charity
   --dark-color: #000000;
   --p-color: #717275;
   --border-color: #e9eaeb;
+  --pink-color: #ff6766;
+  --yellow-color: #ffcc33;
+  --blue-color: #343399;
+
 
   --body-font-family: "Metropolis", sans-serif;
 
@@ -113,7 +117,7 @@ h1 {
 }
 
 h2 {
-  color: var(--secondary-color);
+  color: var(--dark-color);
   font-size: var(--h2-font-size);
   letter-spacing: -2px;
 }
@@ -127,7 +131,7 @@ h4 {
 }
 
 h5 {
-  color: var(--primary-color);
+  color: var(--dark-color);
   font-size: var(--h5-font-size);
 }
 
@@ -136,7 +140,7 @@ h6 {
 }
 
 p {
-  color: var(--p-color);
+  color: var(--dark-color);
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-light);
 }
@@ -154,7 +158,7 @@ button {
 }
 
 a {
-  color: var(--p-color);
+  color: var(--white-color);
   text-decoration: none;
 }
 
@@ -176,7 +180,7 @@ strong {
 }
 
 .section-bg {
-  background-color: var(--section-bg-color);
+  background-color: var(--yellow-color);
 }
 
 .section-overlay {
@@ -340,14 +344,14 @@ strong {
   NAVIGATION              
 -----------------------------------------*/
 .navbar {
-  background: var(--white-color);
+  background: var(--pink-color);
   z-index: 9;
   padding-top: 0;
   padding-bottom: 0;
 }
 
 .navbar-brand {
-  color: var(--primary-color);
+  color: var(--dark-color);
   font-size: var(--h6-font-size);
   font-weight: var(--font-weight-bold);
 }
@@ -358,7 +362,7 @@ strong {
 }
 
 .navbar-brand small {
-  color: var(--secondary-color);
+  color: var(--dark-color);
   display: block;
   font-size: 10px;
   line-height: normal;
@@ -378,7 +382,7 @@ strong {
 
 .navbar-nav .nav-link {
   display: inline-block;
-  color: var(--p-color);
+  color: var(--dark-color);
   font-size: var(--p-font-size);
   font-weight: var(--font-weight-medium);
   position: relative;
@@ -389,7 +393,7 @@ strong {
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
   background: transparent;
-  color: var(--primary-color);
+  color: var(--white-color);
 }
 
 .dropdown-menu {
@@ -520,7 +524,7 @@ strong {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background: var(--primary-color);
+  background: var(--blue-color);
   padding-top: 15px;
   padding-bottom: 10px;
 }
@@ -928,7 +932,7 @@ blockquote::before {
 
 .testimonial-section::before {
   content: "";
-  background-color: var(--primary-color);
+  background-color: var(--blue-color);
   border-radius: 50%;
   position: absolute;
   top: -100px;
@@ -940,7 +944,7 @@ blockquote::before {
 
 .testimonial-section::after {
   content: "";
-  background: var(--custom-btn-bg-color);
+  background: var(--blue-color);
   border-radius: 50%;
   position: absolute;
   bottom: -110px;
@@ -957,7 +961,7 @@ blockquote::before {
 }
 
 #testimonial-carousel .carousel-title {
-  background: var(--section-bg-color);
+  background: var(--yellow-color);
   line-height: normal;
   margin-bottom: 30px;
 }
@@ -1046,11 +1050,11 @@ blockquote::before {
   CONTACT               
 -----------------------------------------*/
 .contact-section {
-  background: var(--white-color);
+  background: var(--yellow-color);
 }
 
 .contact-form {
-  background: var(--section-bg-color);
+  background: var(--blue-color);
   border-radius: var(--border-radius-small);
   padding: 40px;
 }
@@ -1254,7 +1258,7 @@ blockquote::before {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background-color: var(--site-footer-bg-color);
+  background-color: var(--blue-color);
   padding-top: 70px;
 }
 
