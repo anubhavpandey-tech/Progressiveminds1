@@ -334,8 +334,9 @@ strong {
 
 .navbar-expand-lg .navbar-nav .nav-link.custom-btn:hover,
 .custom-border-btn:hover {
-  background: var(--custom-btn-bg-hover-color);
-  border-color: transparent;
+  /* background: var(--custom-btn-bg-hover-color); */
+  background: #000000;
+  border-color: black !important;
   color: var(--white-color);
 }
 
@@ -1262,7 +1263,8 @@ blockquote::before {
 }
 
 .site-footer-bottom {
-  background-color: var(--secondary-color);
+  /* background-color: var(--secondary-color); */
+  background-color: #343399;
   position: relative;
   z-index: 2;
   margin-top: 70px;
